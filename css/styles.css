@@ -30,7 +30,6 @@ img {
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-    margin: 24px 0;
 }
 .page-nav {
     display: flex;
@@ -129,6 +128,7 @@ img {
     width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
     background-color: #FFFFFF;
+    overflow: hidden;
 }
 .section-item img {
     display: block;
