@@ -35,7 +35,7 @@ img {
     display: flex;
     gap: 40px;
     align-items: center;
-    margin: 24px 332px 24px 76px;
+    margin: 0 332px 0 76px;
 }
 .nav-list {
     display: flex;
@@ -43,6 +43,7 @@ img {
 }
 .nav-link {
     display: block;
+    padding: 24px 0;
 }
 .page-address {
     display: flex;
@@ -79,6 +80,7 @@ img {
     justify-content: center;
     margin-top: 48px;
     border: none;
+    cursor: pointer;
 }
 .features {
     padding: 120px 0;
@@ -117,9 +119,6 @@ img {
 
 .section-list {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style: none;
     gap: 24px;
     margin: 0;
     padding: 0;
@@ -127,8 +126,8 @@ img {
 .section-item {
     width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
-    background-color: #FFFFFF;
     overflow: hidden;
+    background-color: #FFFFFF;
 }
 .section-item img {
     display: block;
@@ -348,9 +347,7 @@ body {
     background-color: #FFFFFF;
     letter-spacing: 0.32px;
 }
-.section-list {
-    background-color: #FFFFFF;
-}
+
 .page-footer {
     background-color: #2E2F42;
 }
