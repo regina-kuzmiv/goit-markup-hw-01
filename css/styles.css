@@ -195,10 +195,12 @@ img {
 .social-links .icon {
     fill: #F4F4FD;
 }
-.social-links .link:hover {
+.social-links .link:hover,
+.social-links .link:focus {
     background-color: #404BBF;
 }
-.social-media .link:hover {
+.social-media .link:hover,
+.social-media .link:focus {
     background-color: #31D0AA;
 }
 
